@@ -1,0 +1,53 @@
+:root {
+    --text-color: rgb(44, 44, 44);
+    --dark-text-color: rgb(15, 15, 15);
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+
+body {
+    background: rgb(216, 216, 216);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--dark-text-color);
+    text-decoration: none;
+
+}
+a:visited {
+    color: var(--dark-text-color);
+    text-decoration: none;
+}
+
+a:hover {
+    /* cursor: default; */
+    /* color: aliceblue; */
+}
+
+.navbar {
+    background: rgb(184, 184, 184);
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-item {
+    padding: 15px;
+}
+
+.nav-item-cont {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav-item-sec {
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-right: 5px;
+}
